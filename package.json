@@ -1,0 +1,28 @@
+{
+  "name": "typescript-talk",
+  "version": "1.0.0",
+  "description": "Why TypeScript?",
+  "main": "main.ts",
+  "scripts": {
+    "start": "lite-server",
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kutyel/typescript-talk.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "kutyel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kutyel/typescript-talk/issues"
+  },
+  "homepage": "https://github.com/kutyel/typescript-talk#readme",
+  "dependencies": {
+    "lite-server": "^2.2.0",
+    "systemjs": "^0.19.27",
+    "typescript": "^1.8.10"
+  }
+}

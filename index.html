@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GeonetJS</title>
+    <script src="node_modules/systemjs/dist/system.js"></script>
+    <script src="node_modules/typescript/lib/typescript.js"></script>
+    <script>
+        System.config({
+            transpiler: 'typescript',
+            packages: {
+                src: {
+                    defaultExtension: 'ts'
+                }
+            }
+        });
+        System
+            .import('src/main.ts')
+            .catch(console.error.bind(console));
+    </script>
+</head>
+
+<body>
+    <h1>See the console...</h1>
+</body>
+
+</html>
