@@ -4,8 +4,7 @@
   "description": "Why TypeScript?",
   "main": "main.ts",
   "scripts": {
-    "start": "lite-server",
-    "test": "ava"
+    "start": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -21,8 +20,13 @@
   },
   "homepage": "https://github.com/kutyel/typescript-talk#readme",
   "dependencies": {
+    "concurrently": "^2.0.0",
     "lite-server": "^2.2.0",
     "systemjs": "^0.19.27",
     "typescript": "^1.8.10"
+  },
+  "devDependencies": {
+    "jquery": "^2.2.3",
+    "typings": "^0.8.1"
   }
 }

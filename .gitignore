@@ -31,3 +31,12 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# Transpiled JavaScript
+*.js
+*.js.map
+
+typings
+
+# My personal Google Maps API Key
+apikey.ts
