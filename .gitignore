@@ -37,6 +37,7 @@ node_modules
 *.js.map
 
 typings
+.DS_Store
 
 # My personal Google Maps API Key
 apikey.ts
