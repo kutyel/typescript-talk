@@ -1,7 +1,9 @@
 {
   "name": "typescript-talk",
   "version": false,
-  "dependencies": {},
+  "dependencies": {
+    "es6-promise": "registry:npm/es6-promise#3.0.0+20160211003958"
+  },
   "ambientDependencies": {
     "jquery": "registry:dt/jquery#1.10.0+20160417213236"
   }

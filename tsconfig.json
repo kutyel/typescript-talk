@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "target": "es2015"
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
