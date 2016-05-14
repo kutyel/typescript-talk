@@ -3,14 +3,14 @@ export class Person {
     /**
      * attributes
      */
-    private _name: string;
-    private _age: number;
+    public name: string;
+    public age: number;
 
     /**
      * constructor
      */
     constructor(name: string, age: number) {
-        this._name = name;
-        this._age = age;
+        this.name = name;
+        this.age = age;
     }
 }

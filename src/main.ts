@@ -1,9 +1,5 @@
 import { Person } from './person';
 
-// rename this variable
-let people: Person[] = [];
+let person = new Person('Flavio', 25);
 
-people.push(new Person('Flavio', 25));
-people.push(new Person('David', 22));
-
-console.log(people);
+console.log(person);
