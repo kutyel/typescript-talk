@@ -1,4 +1,4 @@
-# Why TypeScript?
+# Why TypeScript? (Reasons [here](https://github.com/kutyel/typescript-talk/blob/master/REASONS.md))
 
 <p align="center">
   <a href="http://www.typescriptlang.org/">
