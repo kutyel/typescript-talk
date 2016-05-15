@@ -5,19 +5,17 @@
     <meta charset="UTF-8">
     <title>GeonetJS</title>
     <script src="node_modules/systemjs/dist/system.js"></script>
-    <script src="node_modules/typescript/lib/typescript.js"></script>
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script>
         System.config({
-            transpiler: 'typescript',
             packages: {
-                src: {
-                    defaultExtension: 'ts'
+                dist: {
+                    defaultExtension: 'js'
                 }
             }
         });
         System
-            .import('src/main.ts')
+            .import('dist/main')
             .catch(console.error.bind(console));
     </script>
 </head>
