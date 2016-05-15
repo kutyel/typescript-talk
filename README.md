@@ -1,4 +1,4 @@
-# Why TypeScript? (Reasons [here](https://github.com/kutyel/typescript-talk/blob/master/REASONS.md))
+<h1> Why TypeScript? <small>(reasons <a href="https://github.com/kutyel/typescript-talk/blob/master/REASONS.md">here</a>)</small></h1>
 
 <p align="center">
   <a href="http://www.typescriptlang.org/">
