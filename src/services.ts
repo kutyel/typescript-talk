@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import { API_KEY } from './apikey';
+import API_KEY from './apikey';
 import * as Geocoding from './interfaces';
 
 const search = encodeURIComponent('Edificio Hispania, Alicante');
