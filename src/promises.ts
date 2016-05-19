@@ -3,7 +3,6 @@ import { obtenerPermisos, callGoogleMapsGeocodingAPI } from "./services";
 // ejemplo con promesas
 
 export function main(): void {
-    "use strict";
 
     obtenerPermisos(100)
         .then(permission => {

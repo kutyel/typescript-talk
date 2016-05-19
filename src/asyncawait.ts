@@ -3,7 +3,6 @@ import { obtenerPermisos, callGoogleMapsGeocodingAPI } from "./services";
 // ejemplo de async/await
 
 export async function main(): Promise<void> {
-    "use strict";
 
     try {
         const permission = await obtenerPermisos(100);
