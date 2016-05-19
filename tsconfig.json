@@ -2,8 +2,11 @@
     "compilerOptions": {
         "module": "system",
         "target": "es2015",
+        "outDir": "./dist",
         "sourceMap": true,
-        "outDir": "./dist"
+        // Control flow analysis error (TypeScript 1.8)
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true
     },
     "exclude": [
         "node_modules",
