@@ -1,5 +1,8 @@
-import { Person } from "./person";
+// TODO: add type annotation
 
-let person = new Person("Flavio", 25);
+let x = 1;
+let y = null;
+// let z = "1";
 
-person.greet();
+console.log(x === y);
+// console.log(x == z);

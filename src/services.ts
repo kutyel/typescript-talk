@@ -5,8 +5,9 @@ import * as Geocoding from "./interfaces";
 const search = encodeURIComponent("Edificio Hispania, Alicante");
 const SERVICE = `https://maps.googleapis.com/maps/api/geocode/json?address=${search}&key=${API_KEY}`;
 
+// TODO: uff... esto está un poco desastrado, lo convertimos en una clase estática?
+
 export function obtenerPermisos(milliseconds: number): Promise<boolean> {
-    "use strict";
 
     return new Promise<boolean>((resolve, reject) => {
         // este es un servidor caprichoso...
@@ -17,8 +18,10 @@ export function obtenerPermisos(milliseconds: number): Promise<boolean> {
     });
 };
 
+// TODO: encuentra todas las referencias a este servicio!
+// TODO: renombra este servicio para comprobar la magia del refactoring!
+
 export function callGoogleMapsGeocodingAPI(): Promise<Geocoding.RootObject> {
-    "use strict";
 
     return new Promise<Geocoding.RootObject>((resolve, reject) => {
         $.getJSON(SERVICE)
