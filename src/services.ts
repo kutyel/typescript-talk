@@ -1,12 +1,12 @@
-import $ from 'jquery';
-import API_KEY from './apikey';
-import * as Geocoding from './interfaces';
+import $ from "jquery";
+import API_KEY from "./apikey";
+import * as Geocoding from "./interfaces";
 
-const search = encodeURIComponent('Edificio Hispania, Alicante');
+const search = encodeURIComponent("Edificio Hispania, Alicante");
 const SERVICE = `https://maps.googleapis.com/maps/api/geocode/json?address=${search}&key=${API_KEY}`;
 
 export function obtenerPermisos(milliseconds: number): Promise<boolean> {
-    'use strict';
+    "use strict";
 
     return new Promise<boolean>((resolve, reject) => {
         // este es un servidor caprichoso...
@@ -18,7 +18,7 @@ export function obtenerPermisos(milliseconds: number): Promise<boolean> {
 };
 
 export function callGoogleMapsGeocodingAPI(): Promise<Geocoding.RootObject> {
-    'use strict';
+    "use strict";
 
     return new Promise<Geocoding.RootObject>((resolve, reject) => {
         $.getJSON(SERVICE)
