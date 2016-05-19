@@ -11,7 +11,7 @@ export function obtenerPermisos(milliseconds: number): Promise<boolean> {
     return new Promise<boolean>((resolve, reject) => {
         // este es un servidor caprichoso...
         if (Math.random() < 0.5) {
-            reject(false);
+            reject("No se han podido comprobar los permisos.");
         }
         setTimeout(() => resolve(true), milliseconds);
     });

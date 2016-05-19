@@ -18,7 +18,5 @@ export function main(): void {
             console.log("Latitude:", geo.results[0].geometry.location.lat);
             console.log("Longitude:", geo.results[0].geometry.location.lng);
         })
-        .catch(err => {
-            console.error("Tiene permisos:", err);
-        });
+        .catch(err => console.error(err));
 }

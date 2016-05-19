@@ -17,6 +17,6 @@ export async function main(): Promise<void> {
         }
 
     } catch (err) {
-        console.error("Tiene permisos:", err);
+        console.error(err);
     }
 }
