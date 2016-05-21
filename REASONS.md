@@ -16,12 +16,13 @@
 9. Genera JavaScript de alta calidad
 10. Los errores de TypeScript no frenan el compilado
 11. Target de la compilación configurable (es3, es5, es2015...)
-12. Migración personalizable (renombrar de .js a .ts)
-13. Compatible con librerías de terceros (declaration file)
-14. Debug de TypeScript, no de JavaScript (js.map)
-15. Soporte para múltiples IDEs y editores
-16. Curva de aprendizaje mínima viniendo JavaScript / Java / C#
-17. ¿[Quién](http://www.typescriptlang.org/community/friends.html) está usando TypeScript?
+12. Resuelve la conocida ["JavaScript feature gap"](https://raw.githubusercontent.com/kutyel/typescript-talk/master/assets/js-feature-gap-2016.png)
+13. Migración personalizable (renombrar de .js a .ts)
+14. Compatible con librerías de terceros (declaration file)
+15. Debug de TypeScript, no de JavaScript (js.map)
+16. Soporte para múltiples IDEs y editores
+17. Curva de aprendizaje mínima viniendo JavaScript / Java / C#
+18. ¿[Quién](http://www.typescriptlang.org/community/friends.html) está usando TypeScript?
 
 # Recursos
 
