@@ -23,12 +23,12 @@
   },
   "homepage": "https://github.com/kutyel/typescript-talk#readme",
   "dependencies": {
-    "concurrently": "^2.0.0",
-    "lite-server": "^2.2.0",
-    "systemjs": "^0.19.27",
     "typescript": "^1.8.10"
   },
   "devDependencies": {
-    "typings": "^0.8.1"
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.2.0",
+    "systemjs": "^0.19.27",
+    "typings": "^1.0.4"
   }
 }
