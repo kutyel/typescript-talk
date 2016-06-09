@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>GeonetJS</title>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v1.0.0-rc.1/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet/v1.0.0-rc.1/leaflet.js"></script>
     <script src="node_modules/systemjs/dist/system.js"></script>
     <script>
         System.config({
@@ -16,14 +18,13 @@
                 }
             }
         });
-        System
-            .import('dist/main')
-            .catch(console.error.bind(console));
+        System.import('dist/main').catch(console.error.bind(console));
     </script>
 </head>
 
 <body>
-    <h1>See the console...</h1>
+    <h1>My first map with Leaflet.js</h1>
+    <div id="map" style="height: 500px"></div>
 </body>
 
 </html>
